@@ -145,6 +145,12 @@ main::-webkit-scrollbar{
 }
 /* about me styles end */
 
+/*about me header style*/
+.aboutMe > h1{
+  border-bottom: 2px groove rgb(26 26 26 / 31%);
+}
+/*about me header style end*/
+
 .sklandprj{
   margin: 1rem;
   display: grid;
