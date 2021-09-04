@@ -33,7 +33,7 @@ body::before{
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background-image: url("images/3907323.jpg");
+  background-image: url("/images/3907323.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
