@@ -1,6 +1,5 @@
-let skills = ["./images/c-program.svg","./images/cpp.svg","./images/html.svg","./images/css.svg","./images/java-icon.svg","./images/javascript-js-seeklogo.com.svg","./images/sql.svg"];
-let titles = ["C", "C++", "HTML", "CSS", "Java", "JavaScript", "SQL"]; 
-let s_no = 8;
+let skills = ["./images/c-program.svg","./images/cpp.svg","./images/html.svg","./images/css.svg","./images/java-icon.svg","./images/javascript-js-seeklogo.com.svg","./images/mysql-logo-svgrepo-com.svg","./images/svgviewer-output.svg"];
+let titles = ["C", "C++", "HTML", "CSS", "Java", "JavaScript", "MySQL","MongoDB"];
 let i = 0;
 function prev()
 {
