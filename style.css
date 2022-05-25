@@ -120,7 +120,7 @@ main::-webkit-scrollbar{
 .profileImage{
   width: 350px;
   height: 350px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   border-radius: 5px;
 }
@@ -176,7 +176,8 @@ main::-webkit-scrollbar{
 
 .sklandprj > .skills, .sklandprj > .projects{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -190,19 +191,50 @@ main::-webkit-scrollbar{
 .cardHeading{
   display: block;
   width: 90%;
-  /* text-align: center; */
+  /* text-align:center; */
   margin: 0;
   margin-bottom: 1rem;
 }
 
-.sklandprj > .skills > img{
-  width: 60px;
-  height: 60px;
-  margin-bottom: 15px;
-  margin-right: 15px;
+#skl-crsl{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.sklandprj > .skills > img:hover{
+/* #prev-skill{
+  position: absilute;
+  left: 0;
+}
+
+#next-skill{
+  
+} */
+
+#prev-skill, #next-skill{
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.sklandprj > .skills > #skl-crsl div:hover{
+  transition: ease-in 300ms;
+  /* transform: scale(0.85); */
+  background-color: rgb(211, 206, 206);
+  cursor: pointer;
+}
+
+
+.sklandprj > .skills > #skl-crsl > img{
+  width: 90px;
+  height: 90px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.sklandprj > .skills > #skl-crsl > img:hover{
   transition: ease-in 300ms;
   transform: scale(0.85);
   cursor: pointer;
