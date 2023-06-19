@@ -1,6 +1,6 @@
 # A revamp of my portfolio website
 
-Why? I had to move ahead with learning. And the old one was a bit rashly put together using bootcamps and googling and stackoverflow. This one I want to build from scratch properly, with proper documentation and worflow so that it doesn't appear to be an alien mess later on.
+Why? I had to move ahead with learning. And the old one was a bit rashly put together using bootcamps and googling and stackoverflow. This one I want to build from scratch properly, with proper documentation and workflow so that it doesn't appear to be an alien mess later on.
 
 ## The techs?
 
