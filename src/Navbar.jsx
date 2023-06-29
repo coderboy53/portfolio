@@ -1,8 +1,7 @@
+import Box from '@mui/material/Box'
 const Navbar = () => {
     return (
-        <>
-            <h1>Soham's Website</h1>
-        </>
+        <Box component={}></Box>
     );
 }
 
