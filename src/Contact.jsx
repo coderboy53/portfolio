@@ -11,7 +11,9 @@ const Contact = () => {
             <Box sx={{m:3}}>
                 <Typography variant="h4">Contact Me!</Typography>
                 <Paper elevation={2}>
-                    <Typography variant=""></Typography>
+                    <Typography variant="body1">
+                        Hey, I would like to get to know you guys. You can connect with me on
+                    </Typography>
                 </Paper>
             </Box>
         </>

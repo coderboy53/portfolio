@@ -1,6 +1,15 @@
+import Navbar from "./Navbar";
+import { CssBaseline } from "@mui/material";
+import Box from "@mui/material/Box";
 const AboutMe = () => {
     return (
-        <p>Just wait</p>
+        <>
+            <CssBaseline />
+            <Navbar />
+            <Box>
+
+            </Box>
+        </>
     );
 }
 

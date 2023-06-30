@@ -15,6 +15,9 @@ const Navbar = () => {
                         <Typography color="" variant="h4">Soham&apos;s portfolio</Typography>
                         <List component="nav">
                             <ListItem component="div">
+                                <ListItemButton component="a" href='/about' sx={navButtonComp} >
+                                    <ListItemText primary="About Me" />
+                                </ListItemButton>
                                 <ListItemButton component="a" href='/skills' sx={navButtonComp} >
                                     <ListItemText primary="Skills" />
                                 </ListItemButton>
