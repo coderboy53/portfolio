@@ -13,6 +13,14 @@ I'll be experimenting with it, but mostly add a little technical, straighforward
 
 ## You wanna try it locally?
 
+First install the modules used
+
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm install react-router-dom
+```
+
 Just clone the repo and run
 
 ```bash
