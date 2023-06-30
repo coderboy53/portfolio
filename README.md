@@ -5,6 +5,7 @@ Why? I had to move ahead with learning. And the old one was a bit rashly put tog
 ## The techs?
 
 I'll be using the same tech stack of React, but this time with the sole focus of building with React, rather than converting from HTML+CSS to react, which eliminates the twisted, complicated code which is a result of "how to convert this to this?" googling.
+Also this project will be also me trying out Material UI for styling react rather than basic css for the first time.
 
 ## The design?
 
