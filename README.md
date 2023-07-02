@@ -28,3 +28,11 @@ npm run dev
 ```
 
 Note: since we have used vitejs to create this react app, we are using the above, dont use ```npm start``` from create-react-app!
+
+## Workflow
+
+- [ ] Create the about me page
+  - [ ] create a grid to store the contents as detached boxes
+    - [ ] my image
+    - [ ] my name
+    - [ ] introduction
