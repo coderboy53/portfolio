@@ -22,7 +22,7 @@ const NavbarDesktop = () => {
                             <ListItemButton component='a' href='/projects' sx={navButtonComp}>
                                 <ListItemText primary="Projects" />
                             </ListItemButton>
-                            <ListItemButton component='a' href='/projects' sx={navButtonComp}>
+                            <ListItemButton component='a' href='/contact' sx={navButtonComp}>
                                 <ListItemText primary="Contact Me!" />
                             </ListItemButton>
                         </ListItem>
