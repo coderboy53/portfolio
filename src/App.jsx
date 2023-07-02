@@ -30,7 +30,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<AboutMe />} />
-          <Route path='/aboutme' element={<AboutMe />} />
+          <Route path='/about' element={<AboutMe />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />

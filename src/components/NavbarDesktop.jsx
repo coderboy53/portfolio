@@ -9,7 +9,7 @@ const NavbarDesktop = () => {
         <>
             <AppBar position="static" sx={{ display: 'flex', justifyContent: 'space-between', border: 3, borderRadius: 5, width: '100%' }}>
                 <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <Typography color="" variant="h4">Soham&apos;s portfolio</Typography>
+                    <Typography color="" variant="h4">Sam&apos;s portfolio</Typography>
                     <List component="nav">
                         <ListItem component="div">
                             <ThemeToggleSwitch />
