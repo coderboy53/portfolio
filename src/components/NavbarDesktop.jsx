@@ -13,16 +13,16 @@ const NavbarDesktop = () => {
                     <List component="nav">
                         <ListItem component="div">
                             <ThemeToggleSwitch />
-                            <ListItemButton component="a" href='/about' sx={navButtonComp} >
+                            <ListItemButton component="a" href='./about' sx={navButtonComp} >
                                 <ListItemText primary="About Me" />
                             </ListItemButton>
-                            <ListItemButton component="a" href='/skills' sx={navButtonComp} >
+                            <ListItemButton component="a" href='./skills' sx={navButtonComp} >
                                 <ListItemText primary="Skills" />
                             </ListItemButton>
-                            <ListItemButton component='a' href='/projects' sx={navButtonComp}>
+                            <ListItemButton component='a' href='./projects' sx={navButtonComp}>
                                 <ListItemText primary="Projects" />
                             </ListItemButton>
-                            <ListItemButton component='a' href='/contact' sx={navButtonComp}>
+                            <ListItemButton component='a' href='./contact' sx={navButtonComp}>
                                 <ListItemText primary="Contact Me!" />
                             </ListItemButton>
                         </ListItem>
