@@ -1,0 +1,19 @@
+{
+    "routes": [
+        {
+            "src": "/", "dest":"/"
+        },
+        {
+            "src": "/about", "dest":"/"
+        },
+        {
+            "src":"/skills", "dest":"/"
+        },
+        {
+            "src":"/projects", "dest":"/"
+        },
+        {
+            "src":"/contact", "dest":"/"
+        }
+    ]
+}
