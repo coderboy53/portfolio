@@ -29,6 +29,8 @@ npm run dev
 
 Note: since we have used vitejs to create this react app, we are using the above, dont use ```npm start``` from create-react-app!
 
+This website has been deployed to vercel under my custom domain.
+
 ## Workflow
 
 - [ ] Create the about me page
