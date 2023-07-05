@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import CssBaseline from "@mui/material/CssBaseline";
 import Paper from "@mui/material/Paper"
 import Typography from "@mui/material/Typography";
@@ -9,7 +8,6 @@ const Contact = () => {
     return (
         <>
             <CssBaseline />
-            <Navbar />
             <Box sx={{ p: 2, m: 2, justifyContent: 'center' }}>
                 <Paper sx={{ p: 3 }} elevation={5}>
                     <Typography variant="h4" gutterBottom>Contact Me!</Typography>

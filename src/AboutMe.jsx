@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import { CssBaseline, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -7,7 +6,6 @@ const AboutMe = () => {
     return (
         <>
             <CssBaseline />
-            <Navbar />
             <Box sx={{p:2, m: 2 }}>
                 <Grid container spacing={3} >
                     <Grid item md={7} lg={4}>
