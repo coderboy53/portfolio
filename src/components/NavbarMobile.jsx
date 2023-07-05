@@ -17,18 +17,33 @@ const NavbarMobile = () => {
                     <List component="nav">
                         <ListItem component="div">
                             <ThemeToggleSwitch />
-                            <IconButton onClick={(e) => {setDrawer((prev) => !prev)}}>
+                            <IconButton onClick={(_e) => { setDrawer((prev) => !prev) }}>
                                 <MenuIcon />
                             </IconButton>
                         </ListItem>
                     </List>
                 </Toolbar>
             </AppBar>
-            <Drawer open={drawer} anchor="right" variant="temporary" onClose={(e) => {setDrawer((prev) => !prev)}}>
+            <Drawer open={drawer} anchor="right" variant="temporary" onClose={(_e) => { setDrawer((prev) => !prev) }}>
                 <List >
                     <ListItem>
-                        <ListItemButton>
+                        <ListItemButton component="a" href="./about">
                             <ListItemText>About Me</ListItemText>
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="./skills">
+                            <ListItemText>Skills</ListItemText>
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="./projects">
+                            <ListItemText>Projects</ListItemText>
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="./contact">
+                            <ListItemText>Contact Me!</ListItemText>
                         </ListItemButton>
                     </ListItem>
                 </List>
