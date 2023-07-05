@@ -19,18 +19,18 @@ const Contact = () => {
                     <Box sx={{display: 'flex', justifyContent: 'center'}}>
                         <List sx={{ width:'50%',justifyContent: 'space-between' }}>
                             <ListItem alignItems="center">
-                                <ListItemButton alignItems="center" component='a' href="https://github.com/coderboy53" sx={{ width: '2%' }}>
-                                    <ListItemIcon>
+                                <ListItemButton alignItems="center" component='a' href="https://github.com/coderboy53" sx={{ width: '2%', justifyContent:'center'  }}>
+                                    <ListItemIcon sx={{justifyContent:'center'}}>
                                         <GitHub fontSize="large"/>
                                     </ListItemIcon>
                                 </ListItemButton>
-                                <ListItemButton alignItems="center" component="a" href="https://twitter.com/coderboy53" sx={{ width: '2%' }}>
-                                    <ListItemIcon>
+                                <ListItemButton alignItems="center" component="a" href="https://twitter.com/coderboy53" sx={{ width: '2%', justifyContent:'center'  }}>
+                                    <ListItemIcon sx={{justifyContent:'center'}}>
                                         <Twitter fontSize="large"/>
                                     </ListItemIcon>
                                 </ListItemButton>
-                                <ListItemButton alignItems="center" component="a" href="https://linkedin.com/in/soham-mitra53/" sx={{ width: '2%' }}>
-                                    <ListItemIcon>
+                                <ListItemButton component="a" href="https://linkedin.com/in/soham-mitra53/" sx={{ width: '2%', justifyContent:'center' }}>
+                                    <ListItemIcon sx={{justifyContent:'center'}}>
                                         <LinkedIn fontSize="large"/>
                                     </ListItemIcon>
                                 </ListItemButton>
